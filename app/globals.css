@@ -4,7 +4,7 @@
 
 @layer base {
   * {
-    @apply border-border;
+    box-sizing: border-box;
   }
   body {
     @apply bg-gradient-to-br from-purple-start to-purple-end text-foreground;
@@ -14,13 +14,15 @@
 
 @layer components {
   .card-gradient {
-    @apply bg-gradient-to-br from-dark-surface/90 to-dark-bg/95;
+    @apply bg-gradient-to-br;
+    background: linear-gradient(135deg, hsl(225 20% 16% / 0.9), hsl(225 24% 12% / 0.95));
     backdrop-filter: blur(20px);
     border: 1px solid rgba(255, 255, 255, 0.1);
   }
   
   .glass-effect {
-    @apply backdrop-blur-xl bg-white/5;
+    @apply backdrop-blur-xl;
+    background: rgba(255, 255, 255, 0.05);
     border: 1px solid rgba(255, 255, 255, 0.1);
   }
 
@@ -29,15 +31,16 @@
   }
 
   .sidebar-item:hover {
-    @apply bg-white/5;
+    background: rgba(255, 255, 255, 0.05);
   }
 
   .sidebar-item.active {
-    @apply bg-white/10;
+    background: rgba(255, 255, 255, 0.1);
   }
 
   .metric-card {
-    @apply card-gradient p-6 rounded-lg shadow-card-dark;
+    @apply card-gradient p-6 rounded-lg;
+    box-shadow: 0 4px 12px hsla(220, 15%, 5%, 0.3);
   }
 
   .chart-container {
@@ -45,7 +48,8 @@
   }
 
   .chart-bar {
-    @apply bg-gradient-to-t from-accent/60 to-accent rounded-sm transition-all duration-300;
+    @apply bg-gradient-to-t rounded-sm transition-all duration-300;
+    background: linear-gradient(to top, hsl(180 50% 50% / 0.6), hsl(180 50% 50%));
   }
 }
 
