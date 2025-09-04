@@ -1,0 +1,14 @@
+{
+  "name": "SustainSphere",
+  "description": "SustainSphere is a Base Mini App built with Zara.",
+  "image": "https://dummyimage.com/1200x628/0a0b0d/ffffff.png&text=OG",
+  "external_url": "https://7ceb9735-0368-4173-b4aa-112ffc6b05e5.vistara.dev",
+  "properties": {
+    "app": {
+      "name": "SustainSphere",
+      "description": "SustainSphere is a Base Mini App built with Zara.",
+      "url": "https://7ceb9735-0368-4173-b4aa-112ffc6b05e5.vistara.dev",
+      "icon": "https://0co.to/images/zara-2.png"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "accountAssociation": {
+    "header": "",
+    "payload": "",
+    "signature": ""
+  },
+  "frame": {
+    "version": "1",
+    "name": "SustainSphere",
+    "subtitle": "Built with Zara",
+    "description": "SustainSphere is a Base Mini App built with Zara.",
+    "iconUrl": "https://0co.to/images/zara-2.png",
+    "homeUrl": "https://7ceb973503684173b4aa112ffc6b05e5-g8eo-ke5lx4h0i-vistara.vercel.app",
+    "splashImageUrl": "https://7ceb973503684173b4aa112ffc6b05e5-g8eo-ke5lx4h0i-vistara.vercel.app/splash.png",
+    "splashBackgroundColor": "#000000",
+    "heroImageUrl": "https://7ceb973503684173b4aa112ffc6b05e5-g8eo-ke5lx4h0i-vistara.vercel.app/image.png",
+    "tagline": "SustainSphere",
+    "screenshotUrls": [
+      "https://7ceb973503684173b4aa112ffc6b05e5-g8eo-ke5lx4h0i-vistara.vercel.app/screenshot.png",
+      "https://7ceb973503684173b4aa112ffc6b05e5-g8eo-ke5lx4h0i-vistara.vercel.app/screenshot.png"
+    ],
+    "primaryCategory": "social",
+    "tags": [
+      "base",
+      "miniapp",
+      "onchainkit"
+    ],
+    "webhookUrl": "https://7ceb973503684173b4aa112ffc6b05e5-g8eo-ke5lx4h0i-vistara.vercel.app/api/webhook"
+  }
+}
