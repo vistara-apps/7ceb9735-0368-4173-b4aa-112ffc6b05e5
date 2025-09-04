@@ -61,10 +61,9 @@ export function Dashboard() {
             </MetricCard>
           </div>
 
-          <MetricCard title="Contribution Users">
+          <MetricCard title="Contribution Users" value="12,548.00">
             <div className="space-y-4">
               <div className="flex items-center justify-between">
-                <span className="text-white font-semibold text-2xl">12,548.00</span>
                 <ContributionBadge score={mockUser.contributionScore} />
               </div>
               
@@ -88,18 +87,17 @@ export function Dashboard() {
 
         {/* Token Center & Community Access */}
         <div className="lg:col-span-3 space-y-6">
-          <MetricCard title="Token Center">
+          <MetricCard title="Token Center" value="168.00">
             <div className="space-y-4">
               <FarcasterProfileCard user={mockUser} variant="compact" />
               <div className="text-center">
-                <div className="text-white font-bold text-3xl mb-1">168.00</div>
                 <div className="text-white/60 text-sm mb-2">Earned points</div>
                 <div className="text-accent text-sm">+3 this week</div>
               </div>
             </div>
           </MetricCard>
 
-          <MetricCard title="Community Access">
+          <MetricCard title="Community Access" value="Free Tier">
             <div className="space-y-4">
               <div className="flex items-center justify-between p-3 glass-effect rounded-lg">
                 <span className="text-white text-sm">Free</span>
@@ -123,12 +121,8 @@ export function Dashboard() {
 
         {/* Engagement Chart */}
         <div className="lg:col-span-4">
-          <MetricCard title="Engagement Trends">
+          <MetricCard title="Engagement Trends" value="3,776" change={12.5} changeLabel="↑ Increased">
             <div className="space-y-4">
-              <div className="flex items-center justify-between">
-                <span className="text-white font-semibold text-2xl">3,776</span>
-                <div className="text-green-400 text-sm">↑ Increased</div>
-              </div>
               
               <div className="text-white/60 text-sm">
                 <span className="text-accent">64%</span> 4318.00
